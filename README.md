@@ -16,13 +16,19 @@ Assume $GOPATH workspace structure is:
          |
          +- go-lang-playground
     
-Then 
+Create dependencies to `pkg` 
 
     $ cd $GOPATH/src
-    $ go install go-lang-playground/hello
+    $ go build go-lang-playground/stringutil
+    $ go install go-lang-playground/stringutil
     
-Which will create hello executable file under `bin`
+Create executables to `bin` 
+    
+    $ go install go-lang-playground/hello
 
+
+Run executables
+ 
     $ hello
 
 Alternatively 
