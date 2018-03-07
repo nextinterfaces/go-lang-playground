@@ -1,11 +1,15 @@
 # go-lang-playground
-Go-lang kitchen sink apps
+
+Go-lang kitchen sink app collection
 
 #### web
 
-    $ cd web
-    $ go build write_file.go
-    $ ./write_file
-    $ go build webserver.go
+    $ go build hello/interface.go
+    $ ./interface
+    $
+    $ go build web/webserver.go
     $ ./webserver
+    $
+    $ go build web/webserver_content.go
+    $ ./webserver_content
     
